@@ -144,3 +144,44 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* ===========Sprint Challenge=============== */
+.header{
+    display: flex;
+    justify-content: center;
+    /* border: 1px black solid;  */
+}
+div .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    /* border: 2px red solid; */
+}
+.header a{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    text-align: center;
+    /* border: 2px lightblue solid; */
+    text-decoration: none;
+    margin: 2%;
+}
+.header img{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+.photo{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+ 
