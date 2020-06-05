@@ -217,4 +217,12 @@ div .header{
 /* ================About Section======================== */
 .card {
     width: 40%;
+    border-bottom: 1px black dashed;
+}
+.secondRow{
+    display: flex;
+    ;
+}
+.thirdRow{
+    display: flex;
 }
