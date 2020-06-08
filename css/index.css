@@ -214,15 +214,51 @@ div .header{
 .boxes #box10{
     background-color: dodgerblue;
 }
+
 /* ================About Section======================== */
-.card {
-    width: 40%;
+.about h2{
+    margin: 2%;
+}
+.about p{
     border-bottom: 1px black dashed;
+    padding: 2%;
 }
 .secondRow{
     display: flex;
-    ;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
-.thirdRow{
+.card {
+    width: 45%;
+    border-bottom: 1px black dashed;
     display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+}
+.card h2{
+    padding-top: 5%;
+}
+.card p{
+    padding-bottom: 5%;
+}
+.card a{
+    color: black;
+    padding-bottom: 5%;
+    text-decoration: none;
+    text-align: center;
+    padding: 2%;
+    margin: 5% 0;  
+    font-weight: bold;
+    width: 40%;
+    border-radius: 10px;
+    border: 2px black solid;
+}
+.about-page #together {
+    font-weight: bold;
+}
+.about-page #together h2{
+    padding-top: 8%;
+}
+.about-page #together p{
+    padding-bottom: 5%;
 }
